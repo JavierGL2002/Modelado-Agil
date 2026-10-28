@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f7f2" />
+    <meta name="description" content="Una introducción visual al agilismo: valores, colaboración y mejora continua." />
+    <title>Agilismo — construir, aprender, mejorar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="Agilismo, inicio"><span class="brand-mark">a</span><span>agilismo<span class="brand-dot">.</span></span></a>
+      <nav aria-label="Navegación principal">
+        <a href="#idea">La idea</a>
+        <a href="#valores">Valores</a>
+        <a href="#ciclo">El ciclo</a>
+        <a class="nav-link" href="https://agilemanifesto.org/iso/es/manifesto.html" target="_blank" rel="noreferrer">Manifiesto <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-content">
+          <p class="eyebrow"><span class="pulse"></span> UNA FORMA DE TRABAJAR EN EQUIPO</p>
+          <h1>Construir.<br /><span>Aprender.</span><br />Mejorar<span class="period">.</span></h1>
+          <p class="hero-lede">El agilismo ayuda a los equipos a entregar valor pronto, escuchar comentarios y adaptarse mientras el proyecto avanza.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#idea">Explorar la idea <span aria-hidden="true">↓</span></a><a class="text-link" href="#valores">Conocer los valores <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <div class="hero-visual" role="img" aria-label="Diagrama circular de construir, revisar y aprender">
+          <div class="visual-grid"></div><div class="visual-ring ring-back"></div><div class="visual-ring ring-front"></div>
+          <div class="core"><span>VALOR</span><b>✳</b><small>para las personas</small></div>
+          <div class="orbit-label label-build"><i>01</i> construir</div><div class="orbit-label label-review"><i>02</i> revisar</div><div class="orbit-label label-learn"><i>03</i> aprender</div>
+          <span class="visual-note">ITERAR · ESCUCHAR · ADAPTAR</span>
+        </div>
+        <a class="scroll-cue" href="#idea"><span></span> DESLIZA PARA CONTINUAR</a>
+      </section>
+
+      <section class="intro section-wrap" id="idea">
+        <div class="section-kicker"><span>01</span><span class="kicker-line"></span><span>LA IDEA</span></div>
+        <div class="intro-grid">
+          <h2>Avanzar con<br /><em>sentido y feedback.</em></h2>
+          <div class="intro-copy"><p>El agilismo es una manera de pensar y colaborar al crear productos. En lugar de esperar hasta el final para saber si algo funciona, el equipo entrega avances pequeños, recibe comentarios y decide qué mejorar.</p><p class="muted">El objetivo es aprender pronto y responder a lo que las personas realmente necesitan.</p></div>
+        </div>
+        <div class="quote"><span class="quote-mark">“</span><p>Un proyecto avanza mejor cuando el equipo conversa, comparte lo que descubre y ajusta el rumbo a tiempo.</p><span class="quote-tag">UNA IDEA CLAVE DEL TRABAJO ÁGIL</span></div>
+      </section>
+
+      <section class="values section-wrap" id="valores">
+        <div class="section-kicker"><span>02</span><span class="kicker-line"></span><span>VALORES ÁGILES</span></div>
+        <div class="values-heading"><h2>Lo que ponemos<br /><em>en primer lugar.</em></h2><p>El Manifiesto Ágil expresa cuatro valores. Aprecia lo de la derecha, pero prioriza lo de la izquierda.</p></div>
+        <div class="value-list">
+          <article class="value-card"><span class="value-number">01</span><div><span class="value-over">POR ENCIMA DE</span><h3>Personas e interacciones</h3></div><span class="value-arrow">→</span><p>Procesos y herramientas</p></article>
+          <article class="value-card"><span class="value-number">02</span><div><span class="value-over">POR ENCIMA DE</span><h3>Software funcionando</h3></div><span class="value-arrow">→</span><p>Documentación extensiva</p></article>
+          <article class="value-card"><span class="value-number">03</span><div><span class="value-over">POR ENCIMA DE</span><h3>Colaboración con el cliente</h3></div><span class="value-arrow">→</span><p>Negociación contractual</p></article>
+          <article class="value-card"><span class="value-number">04</span><div><span class="value-over">POR ENCIMA DE</span><h3>Respuesta ante el cambio</h3></div><span class="value-arrow">→</span><p>Seguir un plan</p></article>
+        </div>
+        <p class="values-note">Los elementos de la derecha también tienen valor; el manifiesto destaca más los de la izquierda.</p>
+      </section>
+
+      <section class="cycle section-wrap" id="ciclo">
+        <div class="section-kicker"><span>03</span><span class="kicker-line"></span><span>EN LA PRÁCTICA</span></div>
+        <div class="cycle-heading"><h2>Un ciclo pequeño.<br /><em>Un progreso visible.</em></h2><p>Repite este ciclo para aprender con cada entrega y hacer cambios con propósito.</p></div>
+        <div class="steps">
+          <article class="step"><span class="step-icon icon-plan">✳</span><span class="step-label">PASO 01</span><h3>Elegir</h3><p>El equipo acuerda qué aporta más valor ahora.</p></article>
+          <span class="step-connector" aria-hidden="true">→</span>
+          <article class="step"><span class="step-icon icon-build">↗</span><span class="step-label">PASO 02</span><h3>Construir</h3><p>Se crea una parte pequeña y funcional.</p></article>
+          <span class="step-connector" aria-hidden="true">→</span>
+          <article class="step"><span class="step-icon icon-feedback">◎</span><span class="step-label">PASO 03</span><h3>Revisar</h3><p>Se comparte el avance y se escucha feedback.</p></article>
+          <span class="step-connector" aria-hidden="true">→</span>
+          <article class="step"><span class="step-icon icon-learn">⟳</span><span class="step-label">PASO 04</span><h3>Mejorar</h3><p>Lo aprendido guía el siguiente paso.</p></article>
+        </div>
+      </section>
+
+      <section class="closing section-wrap">
+        <div class="closing-card"><div><span class="closing-kicker">LA ESENCIA</span><h2>Menos esperar.<br /><em>Más aprender juntos.</em></h2></div><a class="button button-light" href="https://agilemanifesto.org/iso/es/manifesto.html" target="_blank" rel="noreferrer">Leer el Manifiesto Ágil <span aria-hidden="true">↗</span></a><span class="closing-spark" aria-hidden="true">✳</span></div>
+      </section>
+    </main>
+
+    <footer class="footer"><a class="brand" href="#inicio"><span class="brand-mark">a</span><span>agilismo<span class="brand-dot">.</span></span></a><span>Una introducción al trabajo ágil</span><a href="https://agilemanifesto.org/iso/es/manifesto.html" target="_blank" rel="noreferrer">Fuente: Manifiesto Ágil ↗</a></footer>
+  </body>
+</html>
+
